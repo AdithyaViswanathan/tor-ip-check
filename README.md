@@ -5,11 +5,9 @@ I have used curl function in C++ to extract the information of the website.
 
 required packages to install : libcurl 
  
-PLEASE RUN THE FOLLOWING CODE IN YOUR TERMINAL TO INSTALL TEH LIBRARY FUNCTION 
+To Install libcurl :  
 	sudo apt-get install libcurl4-openssl-dev
  
-PLEASE COMPILE YOUR FILE IN THE FOLLOWING FORMAT
+Command :
  	g++ <filename.cpp> -lcurl -o <outputfile>
-
-PLEASE RUN THE FILE IN THE FOLLOWING FORMAT
- ./<output file> <ip to be checked>
+	./<output file> <ip to be checked>
